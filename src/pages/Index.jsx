@@ -1,4 +1,4 @@
-import { Box, VStack, Heading, Text, keyframes } from "@chakra-ui/react";
+import { Box, VStack, Heading, Text, HStack, Link, keyframes } from "@chakra-ui/react";
 
 const fadeInUp = keyframes`
   0% { opacity: 0; transform: translateY(20px); }
@@ -19,6 +19,17 @@ const Index = () => {
           I'm currently exploring ways to make interacting with computers more fun, with a little help from AI.
         </Text>
       </VStack>
+      <HStack spacing={8} mt={8}>
+        <Link href="https://github.com/blixt" target="_blank">
+          GitHub
+        </Link>
+        <Link href="https://twitter.com/blixt" target="_blank">
+          Twitter
+        </Link>
+        <Link href="mailto:me@blixt.nyc" target="_blank">
+          Email
+        </Link>
+      </HStack>
     </Box>
   );
 };
