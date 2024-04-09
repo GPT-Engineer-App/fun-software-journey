@@ -9,10 +9,10 @@ const Index = () => {
   return (
     <Box minHeight="100vh" display="flex" alignItems="center" justifyContent="center" bg="blue.500">
       <VStack spacing={6} textAlign="center">
-        <Heading as="h1" size="4xl" color="white" animation={`${fadeInUp} 1s ease-out`}>
+        <Heading as="h1" size="5xl" color="white" animation={`${fadeInUp} 1s ease-out`}>
           Blixt
         </Heading>
-        <Heading as="h2" size="xl" color="white" opacity={0.8} animation={`${fadeInUp} 1s ease-out 0.2s`} sx={{ animationFillMode: "forwards" }}>
+        <Heading as="h2" size="lg" color="white" opacity={0.8} animation={`${fadeInUp} 1s ease-out 0.2s`} sx={{ animationFillMode: "forwards" }}>
           Making software more fun
         </Heading>
         <Text color="white" opacity={0.8} maxW="500px" animation={`${fadeInUp} 1s ease-out 0.4s`} sx={{ animationFillMode: "forwards" }}>
